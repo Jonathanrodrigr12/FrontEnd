@@ -1,0 +1,21 @@
+/* Update the 'bg-secondary' class to define a blue background color */
+.bg-secondary {
+  background-color: #FFD404; /* Replace 'blue' with your desired shade of blue */
+}
+
+.text-color {
+  color:  #55298B; 
+}
+
+.border-primary{
+  box-shadow: 0 0 20px #55298B;
+}
+
+.border-secondary{
+  box-shadow: 0 0 5px #FFD404;
+}
+
+.color-text{
+  color:  #55298B; 
+  text-decoration: none;
+}

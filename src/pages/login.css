@@ -1,0 +1,65 @@
+ /* src/components/Login.css */
+ .login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Set a fixed width for both the image and the login form */
+.login-image {
+  width: 300px; /* Adjust the width as needed */
+}
+
+.login-form {
+  width: 270px; /* Adjust the width to match the image */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative; /* Add position relative to establish stacking context */
+  z-index: 1; /* Set a positive z-index value */
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #ccc; /* Change the background color to gray */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button {
+  position: sticky; /* Set the position to sticky */
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  background-color: #55298B; /* Change the background color to blue */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  z-index: 2; /* Set a higher z-index value to ensure the button is on top */
+}
+
+button:hover {
+  background-color: #55298B;
+}
+
+/* Update the 'bg-secondary' class to define a blue background color */
+.bg-secondary {
+  background-color: #FFD404; /* Replace 'blue' with your desired shade of blue */
+}
+
+.bg-primary {
+  background-color:  #55298B; /* Replace 'blue' with your desired shade of blue */
+}
