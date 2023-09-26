@@ -22,11 +22,13 @@ const Producto = () => {
 
         {/* Second Product (same structure as the first) */}
         <div className='w-[300px] h-[300px] bg-primary relative z-[1] rounded-md overflow-hidden flex items-center justify-center ml-4'>
-          <img
-            src='arroz.jpg' // Replace with the actual image path for the second product
-            alt='Product Image'
-            className='w-full h-full object-cover' // Ensure the image covers the container
-          />
+          <a href="/InfoProducto" className='w-full h-full object-cover'>
+             <img
+              src='arroz.jpg' // Replace with the actual image path for the second product
+              alt='Product Image'
+              className='w-full h-full object-cover' // Ensure the image covers the container
+            />
+          </a>
           <div className='w-[300px] h-[40px] bg-secondary absolute z-[100] bottom-0 p-2 flex justify-between'>
             <p className='text-white font-bold'>12500</p>
             <p className='text-white font-bold'>Arroz</p>

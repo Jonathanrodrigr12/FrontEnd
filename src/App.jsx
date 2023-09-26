@@ -55,7 +55,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/InfoProducto/:id",
+        path: "/InfoProducto",
         element: (
           <AnimatePresence>
             <InfoProducto />
