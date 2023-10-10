@@ -16,11 +16,8 @@ const Login = () => {
     e.preventDefault();
     // Add your authentication logic here
     console.log('Submitted:', formData);
+    location.replace('/MenuAdministrar');
   };
-
-  const sayHello = () => {
-    alert(formData.email);
-  }
 
   return (
     <div className="login-container">
@@ -54,7 +51,7 @@ const Login = () => {
               required
             />
           </div>
-          <button className="button" type="submit" onClick={sayHello}>Login</button>
+          <button className="button" type="submit">Login</button>
         </form>
       </div>
       </div> 

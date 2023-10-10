@@ -27,6 +27,8 @@ const InfoSection = () => {
              <br/>
              <div className={`flex flex-row flex items-center`} >
                <h1 className="text-color font-poppins font-semibold xs:text-[35px] text-[35px]"><del>Antes $14.500</del></h1>
+             </div>
+               <div className={`flex flex-row flex items-center`} >
                <h1 className="text-color font-poppins font-semibold xs:text-[35px] text-[35px]">Ahora $12.500</h1>
              </div>
              <br/>

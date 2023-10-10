@@ -8,7 +8,9 @@ import Footer from "./Footer";
 import Categories from "./Categories";
 import SearchBar from "./SearchBar";
 import Sidebar from "./Sidebar";
-
+import CrearProducto from "./CrearProducto";
+import AdministrarProductos from "./AdministrarProductos";
+import ModificarProducto from "./ModificarProducto";
 
 export {
   Navbar,
@@ -20,6 +22,8 @@ export {
   Footer,
   Categories,
   SearchBar,
-  Sidebar
-  
+  Sidebar,
+  CrearProducto,
+  AdministrarProductos,
+  ModificarProducto,
 };

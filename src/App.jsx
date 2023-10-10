@@ -9,8 +9,10 @@ import {
   Productos,
   InfoProducto,
   Login,
-  MenuAdmin,
+  Creacion,
   ErrorPage,
+  MenuAdministrar,
+  Modificar,
 } from "./pages";
 
 const router = createBrowserRouter([
@@ -71,10 +73,26 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/Admin/",
+        path: "/Creacion",
         element: (
           <AnimatePresence>
-            <MenuAdmin />
+            <Creacion />
+          </AnimatePresence>
+        ),
+      },
+      {
+        path: "/MenuAdministrar",
+        element: (
+          <AnimatePresence>
+            <MenuAdministrar />
+          </AnimatePresence>
+        ),
+      },
+      {
+        path: "/Modificar",
+        element: (
+          <AnimatePresence>
+            <Modificar />
           </AnimatePresence>
         ),
       },
